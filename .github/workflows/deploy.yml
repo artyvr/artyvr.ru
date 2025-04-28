@@ -18,7 +18,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-           deploy_key: ${{ secrets.GITHUB_TOKEN }}
+           deploy_key: ${{ secrets.ARTYVR_SITE_TOKEN }}
            external_repository: artyvr/artyvr.github.io
            publish_dir: ./public
            cname: artyvr.ru
