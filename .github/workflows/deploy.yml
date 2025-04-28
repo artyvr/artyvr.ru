@@ -20,5 +20,5 @@ jobs:
         with:
            deploy_key: ${{ secrets.ARTYVR_SITE_TOKEN }}
            external_repository: artyvr/artyvr.github.io
-           publish_dir: ./public
+           publish_dir: ./
            cname: artyvr.ru
