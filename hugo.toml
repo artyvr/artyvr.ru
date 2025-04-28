@@ -1,0 +1,71 @@
+baseURL = 'https://artyvr.ru/'
+languageCode = 'ru-ru'
+title = 'artyvr.ru'
+theme = 'archie'
+defaultContentLanguage = 'ru'
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 4
+  path = 'page'
+
+[params]
+	mode="toggle" # color-mode → light,dark,toggle or auto
+	useCDN=false
+	subtitle = "записки на память ..."
+	mathjax = true
+	katex = true
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
+
+[[menu.main]]
+name = "Тэги"
+url = "/tags"
+weight = 4
+
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      inline = false
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = false
+      keepConditionalComments = false
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepSpecialComments = true
+      keepWhitespace = false
+      templateDelims = ['', '']
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+      version = 2022
+    [minify.tdewolff.json]
+      keepNumbers = false
+      precision = 0
+    [minify.tdewolff.svg]
+      inline = false
+      keepComments = false
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false
