@@ -1,5 +1,4 @@
 name: Deploy site
-
 on: push
 
 jobs:
