@@ -17,6 +17,11 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "artyvr"
+          git config --global user.email "immitto@gmail.com"
+
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v4
         with:
