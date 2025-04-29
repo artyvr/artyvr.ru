@@ -23,8 +23,7 @@ jobs:
         with:
            personal_token: ${{ secrets.GH_PAT }}
            external_repository: artyvr/artyvr.github.io
-           publish_branch: gh-pages
-           publish_dir: ./
+           publish_dir: ./public
            keep_files: false
            cname: artyvr.ru
 
