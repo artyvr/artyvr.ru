@@ -26,4 +26,3 @@ jobs:
            publish_dir: ./public
            keep_files: false
            cname: artyvr.ru
-
