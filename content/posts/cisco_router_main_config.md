@@ -2,7 +2,6 @@
 title: Простоя конфигурация Cisco
 description: Основная конфигурация маршрутизатора Cisco 800
 date: 2025-04-26T18:00:00+01:00
-#tldr: false
 draft: false
 tags: [cisco, router] 
 toc: false
