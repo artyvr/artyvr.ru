@@ -101,3 +101,5 @@ qemu-system-x86_64 \
 -drive if=none,id=system,format=qcow2,file=system.img \
 
 ```
+
+а ещё можно установить **virtio-win-guest-tools.exe** отдуда же [virtio-win](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)
