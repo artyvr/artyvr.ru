@@ -31,14 +31,6 @@
         </div>
       </div>
 
-      <!-- TOC -->
-      {{ if isset .Params "toc" }}
-      <div class="toc">
-        <strong>Главы:</strong>
-        {{ .TableOfContents }}
-      </div>
-      {{ end }}
-    </div>
 
     <!-- Disqus -->
     {{- $.Scratch.Set "isDisqus" true -}}
