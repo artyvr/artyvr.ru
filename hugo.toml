@@ -17,8 +17,8 @@ pygmentscodefencesguesssyntax = true
 	mode="toggle" # light,dark,toggle or auto
 	useCDN=false
 	subtitle = "записки на память ..."
-	mathjax = true
-	katex = true
+	mathjax = false
+	katex = false
 
 [sitemap]
   changeFreq = ''

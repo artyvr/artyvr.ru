@@ -15,7 +15,7 @@ jobs:
           hugo-version: "0.147.0"
 
       - name: Build site
-        run: hugo --minify
+        run: hugo
 
       - name: Configure Git
         run: |
