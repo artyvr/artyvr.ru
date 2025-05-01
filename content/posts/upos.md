@@ -12,6 +12,8 @@ toc: false
 
 [33.18.03_PC_STUB.zip](https://artyvr.ru/upos/33.18.03_PC_STUB.zip)
 
+Для **linux**
+
 ```bash
 
 wget https://artyvr.ru/upos/33.18.03_PC_STUB.zip
@@ -20,6 +22,10 @@ curl --output 33.18.03_PC_STUB.zip https://artyvr.ru/upos/33.18.03_PC_STUB.zip
 
 ```
 
+Для **Windows**
+
 ```powershell
-curl -L -o 33.18.03_PC_STUB.zip https://artyvr.ru/upos/33.18.03_PC_STUB.zip
+
+Invoke-WebRequest https://artyvr.ru/upos/33.18.03_PC_STUB.zip -OutFile 33.18.03_PC_STUB.zip
+
 ```
