@@ -7,11 +7,12 @@ tags: [github, cicd]
 toc: false
 ---
 
-### CI/CD github
+### Github actions hugo site
 
 .github/workflows/deploy.yml
 
 ```ymal
+
 name: Deploy site
 on: push
 
