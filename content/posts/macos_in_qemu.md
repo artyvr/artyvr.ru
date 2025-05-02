@@ -22,4 +22,18 @@ git clone https://github.com/kholia/OSX-KVM.git
 
 > -device usb-host,bus=ehci.0,vendorid=0x05ac,productid=0x12ab,guest-reset=false,id=iphone
 
-в моем случае это iphone/ipad
+vendorid и productid узнаем из вывода команды lsusb
+
+```bash
+
+lsusb
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 05ac:12ab Apple, Inc. iPad
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+...
+
+```
+
+в моем случае это ***05ac:12ab Apple, Inc. iPad***
