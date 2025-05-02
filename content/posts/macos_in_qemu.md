@@ -22,7 +22,7 @@ git clone https://github.com/kholia/OSX-KVM.git
 
 > -device usb-host,bus=ehci.0,vendorid=0x05ac,productid=0x12ab,guest-reset=false,id=iphone
 
-vendorid и productid узнаем из вывода команды lsusb
+**vendorid** и **productid** узнаем из вывода команды **lsusb**
 
 ```bash
 
