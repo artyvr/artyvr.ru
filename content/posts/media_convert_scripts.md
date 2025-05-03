@@ -1,7 +1,7 @@
 ---
 title: Media conver scripts
 description: Конвертация медиа-файлов
-date: 2025-05-03T22:01:00+01:00
+date: 2025-05-03T20:01:00+01:00
 draft: false
 tags: [bash, convert] 
 toc: false
