@@ -44,3 +44,7 @@ jobs:
 
 В данном случае, собраный сайт загружается в другой репозиторий, для этого в репозиториии с исходниками, в разделе **Actions secrets and variables**
 создаем **Actions Key**, а в целивом репозитории содаем **Deploy keys** с соответствующим именем.
+
+```bash
+ssh-keygen -t ed25519 -C "github-actions-deploy" -f github-actions-deploy -N ""
+```
