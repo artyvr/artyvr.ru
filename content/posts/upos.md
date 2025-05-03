@@ -2,7 +2,6 @@
 title: UPOS
 description: UPOS downloads
 date: 2025-03-29T18:33:00+01:00
-#tldr: false
 draft: false
 tags: [upos] 
 toc: false
@@ -11,6 +10,7 @@ toc: false
 ### UPOS
 
 [33.18.03_PC_STUB.zip](https://artyvr.ru/upos/33.18.03_PC_STUB.zip)
+[33.33_PC_STUB.zip](https://artyvr.ru/upos/33.33_PC_STUB.zip)
 
 Для **linux**
 
