@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-# SSH Certificate-Based Authentication
+## SSH Certificate-Based Authentication
 
 ## Создание сертификатов
 

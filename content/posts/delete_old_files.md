@@ -3,7 +3,7 @@ title: Delete old files
 description: Удаление старых файлов, например логов
 date: 2025-05-03T21:01:00+01:00
 draft: false
-tags: [bash, convert] 
+tags: [bash] 
 toc: false
 ---
 
