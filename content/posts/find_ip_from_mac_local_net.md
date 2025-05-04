@@ -2,7 +2,6 @@
 title: MAC и ip
 description: Поиск mac`ов в локальной сети
 date: 2025-04-25T18:00:00+01:00
-#tldr: false
 draft: false
 tags: [bash, ssh] 
 toc: false
