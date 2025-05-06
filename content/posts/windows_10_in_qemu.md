@@ -102,4 +102,4 @@ qemu-system-x86_64 \
 
 ```
 
-а ещё можно установить **virtio-win-guest-tools.exe** отдуда же [virtio-win](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)
+а ещё можно установить **virtio-win-guest-tools.exe** от туда же [virtio-win](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)

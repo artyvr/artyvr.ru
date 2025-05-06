@@ -25,7 +25,7 @@ curl --output 33.18.03_PC_STUB.zip https://artyvr.ru/upos/33.18.03_PC_STUB.zip
 
 Для **Windows**
 
-```powershell
+```pwsh
 
 Invoke-WebRequest https://artyvr.ru/upos/33.18.03_PC_STUB.zip -OutFile 33.18.03_PC_STUB.zip
 

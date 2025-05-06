@@ -12,8 +12,6 @@ toc: false
 ```bash
 #!/bin/bash
 
-# Send notifications to Telegram Bot
-
 TELEGRAM_BOT_TOKEN="0123456789:qwertyuiopasdfghjklzxcvbnm"
 TELEGRAM_BOT_CHAT_ID="0123456789"
 
@@ -27,6 +25,5 @@ ESCAPED_MESSAGE_TEXT=$(escape "$MESSAGE_TEXT")
 MESSAGE="$ESCAPED_MESSAGE_TEXT"
 
 curl -S -X POST -d chat_id="$TELEGRAM_BOT_CHAT_ID" -d text="$MESSAGE" -d parse_mode="HTML" "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage"
-
 
 ```

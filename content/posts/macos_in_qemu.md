@@ -18,7 +18,7 @@ git clone https://github.com/kholia/OSX-KVM.git
 
 Следуем инструкциям из репозитория.
 
-Для проброса usb-устройств в файл **OpenCore-Boot.sh** добовляем строку:
+Для проброса usb-устройств в файл **OpenCore-Boot.sh** добавляем строку:
 
 > -device usb-host,bus=ehci.0,vendorid=0x05ac,productid=0x12ab,guest-reset=false,id=iphone
 
