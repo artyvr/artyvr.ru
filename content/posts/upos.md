@@ -9,9 +9,9 @@ toc: false
 
 ## UPOS
 
-- [33.18.03_PC_STUB.zip](https://artyvr.ru/upos/33.18.03_PC_STUB.zip)
-- [33.33_PC_STUB.zip](https://artyvr.ru/upos/33.33_PC_STUB.zip)
-- [MTP_Device_Drivers.zip](https://artyvr.ru/upos/MTP_Device_Drivers.zip)
+- [https://artyvr.ru/upos/33.18.03_PC_STUB.zip](https://artyvr.ru/upos/33.18.03_PC_STUB.zip)
+- [https://artyvr.ru/upos/33.33_PC_STUB.zip](https://artyvr.ru/upos/33.33_PC_STUB.zip)
+- [https://artyvr.ru/upos/MTP_Device_Drivers.zip](https://artyvr.ru/upos/MTP_Device_Drivers.zip)
 
 Для **linux**
 
