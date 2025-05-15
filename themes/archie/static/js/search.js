@@ -9,7 +9,7 @@ const FilterPostsJSON = (query, element) =>
 {
 	let result, itemsWithElement;
 	query = new RegExp(query, 'ig')
-	result = dataJSON.filter(item => query.test(item.title) | query.test(item.plain))
+	result = GetPostsJSON().filter(item => query.test(item.title) | query.test(item.plain))
 	itemsWithElement = result.map(item => (
 		`<div class="search-result-item">
 			<a href="${item.url}">
