@@ -30,5 +30,4 @@ const searchInputAction = (event, callback) =>
 }
 
 searchInputAction('focus', () => GetPostsJSON().then(data => dataJSON = data))
-
 searchInputAction('keyup', (event) => FilterPostsJSON(event.target.value, searchResult))
