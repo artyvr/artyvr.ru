@@ -9,7 +9,9 @@ const FilterPostsJSON = (query, element) =>
 {
 	let result, itemsWithElement;
 	query = new RegExp(query, 'ig')
-	result = GetPostsJSON().filter(item => query.test(item.title) | query.test(item.plain))
+	dataJSON = GetPostsJSON()
+	result = dataJSON.filter(item => query.test(item.title) | query.test(item.plain))
+
 	itemsWithElement = result.map(item => (
 		`<div class="search-result-item">
 			<a href="${item.url}">
@@ -20,6 +22,7 @@ const FilterPostsJSON = (query, element) =>
 			</a>
 		</div>`
 	))
+
 	element.style.display = 'block';
 	element.innerHTML = itemsWithElement.join('');
 }
