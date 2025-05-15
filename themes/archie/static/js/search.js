@@ -5,7 +5,7 @@ const GetPostsJSON = async () =>
 	return data
 }
 
-const filterPostsJSON = (query, element) => 
+const FilterPostsJSON = (query, element) => 
 {
 	let result, itemsWithElement;
 	query = new RegExp(query, 'ig')
@@ -29,6 +29,6 @@ const searchInputAction = (event, callback) =>
 	searchInput.addEventListener(event, callback)
 }
 
-searchInputAction('focus', () => getPostsJSON().then(data => dataJSON = data))
+searchInputAction('focus', () => GetPostsJSON().then(data => dataJSON = data))
 
-searchInputAction('keyup', (event) => filterPostsJSON(event.target.value, searchResult))
+searchInputAction('keyup', (event) => FilterPostsJSON(event.target.value, searchResult))
