@@ -3,13 +3,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const resultsContainer = document.getElementById('search-results');
   let searchData = [];
 
-  // Загрузка данных
+  localStorage.setItem('searchCache', JSON.stringify({
+	data: searchData,
+	timestamp: Date.now()
+  }));
+
+	// Проверяем при загрузке
+  const cached = localStorage.getItem('searchCache');
+  if (cached) {
+	const { data, timestamp } = JSON.parse(cached);
+	if (Date.now() - timestamp < 86400000) { // 24 часа
+		searchData = data;
+	}
+  }
+
   fetch('/index.json')
     .then(res => res.json())
     .then(data => searchData = data);
 
-  // Поиск с задержкой 300мс
-  searchInput.addEventListener('input', debounce(search, 300));
+   searchInput.addEventListener('input', debounce(search, 300));
 
   function search() {
     const query = searchInput.value.trim().toLowerCase();
