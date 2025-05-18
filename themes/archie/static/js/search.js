@@ -1,36 +1,53 @@
-const GetPostsJSON = async () => 
-{
-	let response = await fetch('/index.json')
-	let data = await response.json()
-	return data
-}
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('search-input');
+  const resultsContainer = document.getElementById('search-results');
+  let searchData = [];
 
-const FilterPostsJSON = (query, element) => 
-{
-	let result, itemsWithElement;
-	query = new RegExp(query, 'ig')
-	dataJSON = GetPostsJSON()
-	result = dataJSON.filter(item => query.test(item.title) | query.test(item.plain))
+  // Загрузка данных
+  fetch('/index.json')
+    .then(res => res.json())
+    .then(data => searchData = data);
 
-	itemsWithElement = result.map(item => (
-		`<div class="search-result-item">
-			<a href="${item.url}">
-				${item.parent} / ${item.title}
-				<span class="icon">
-					<i class="fas fa-external-link-alt"></i>
-				</span>
-			</a>
-		</div>`
-	))
+  // Поиск с задержкой 300мс
+  searchInput.addEventListener('input', debounce(search, 300));
 
-	element.style.display = 'block';
-	element.innerHTML = itemsWithElement.join('');
-}
+  function search() {
+    const query = searchInput.value.trim().toLowerCase();
+    resultsContainer.innerHTML = '';
+    
+    if (query.length < 2) return;
 
-const searchInputAction = (event, callback) => 
-{
-	searchInput.addEventListener(event, callback)
-}
+    const results = searchData.filter(item => 
+      item.title.toLowerCase().includes(query) || 
+      item.content.toLowerCase().includes(query)
+    );
 
-searchInputAction('focus', () => GetPostsJSON().then(data => dataJSON = data))
-searchInputAction('keyup', (event) => FilterPostsJSON(event.target.value, searchResult))
+    displayResults(results, query);
+  }
+
+  function displayResults(results, query) {
+    if (!results.length) {
+      resultsContainer.innerHTML = '<p>Ничего не найдено</p>';
+      return;
+    }
+
+    resultsContainer.innerHTML = results.map(item => `
+      <div class="search-item">
+        <h3><a href="${item.url}">${highlight(item.title, query)}</a></h3>
+        <p>${highlight(item.content.substring(0, 150), query)}...</p>
+      </div>
+    `).join('');
+  }
+
+  function highlight(text, query) {
+    return text.replace(new RegExp(query, 'gi'), match => `<mark>${match}</mark>`);
+  }
+
+  function debounce(func, wait) {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  }
+});

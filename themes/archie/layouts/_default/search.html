@@ -2,11 +2,9 @@
 
 <h1 class="page-title">{{ .Title }}</h1>
 
-<div class="search-wrapper">
-	<input class="input" id="searchInput" type="text" placeholder="Поиск...">
-	<div class="searchResults">
-		<div id="searchResult"></div>
-	</div>
+<<div class="search-box">
+  <input type="text" id="search-input" placeholder="Поиск...">
+  <div id="search-results"></div>
 </div>
 
 <script src="{{ absURL "js/search.js" }}"></script>
