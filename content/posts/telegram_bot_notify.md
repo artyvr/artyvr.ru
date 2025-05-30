@@ -4,7 +4,7 @@ description: Посылаем уведемления в telegramm bot через
 date: 2025-01-27T19:22:00+01:00
 #tldr: false
 draft: false
-tags: [bash, telegramm] 
+tags: [bash, telegramm, linux] 
 toc: false
 ---
 

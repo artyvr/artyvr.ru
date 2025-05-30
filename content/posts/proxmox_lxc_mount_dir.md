@@ -4,7 +4,7 @@ description: Монтирование внешней директории к VM 
 date: 2025-04-21T18:15:00+01:00
 #tldr: false
 draft: false
-tags: [bash, pve, proxmox] 
+tags: [bash, pve, proxmox, linux] 
 toc: false
 ---
 

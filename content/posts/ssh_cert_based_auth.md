@@ -3,7 +3,7 @@ title: SSH авторизация
 description: Создание ssh ключей для удаленной авторизации
 date: 2025-04-19T18:40:00+01:00
 draft: false
-tags: [bash, ssh] 
+tags: [bash, ssh, linux] 
 toc: false
 ---
 

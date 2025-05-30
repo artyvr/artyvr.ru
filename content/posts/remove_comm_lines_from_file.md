@@ -4,7 +4,7 @@ description: Удаление закоментированных строк из
 date: 2025-04-20T18:27:00+01:00
 #tldr: false
 draft: false
-tags: [bash] 
+tags: [bash, linux] 
 toc: false
 ---
 

@@ -4,7 +4,7 @@ description: Запустить Windows 10 в QEMU
 date: 2025-04-20T18:27:00+01:00
 #tldr: false
 draft: false
-tags: [qemu] 
+tags: [qemu, linux] 
 toc: false
 ---
 
