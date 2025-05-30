@@ -4,12 +4,12 @@ description: Монтирование внешней директории к VM 
 date: 2025-04-21T18:15:00+01:00
 #tldr: false
 draft: false
-tags: [bash] 
+tags: [bash, pve, proxmox] 
 toc: false
 ---
 
 ```bash
-pct set 102 -mp1 /mnt/pve/moydisk/films,mp=/mnt/hdd2
+pct set 102 -mp1 /mnt/pve/mydisk/films,mp=/mnt/hdd2
 ```
 
 Где "102" это номер виртуальной машины или контейнера

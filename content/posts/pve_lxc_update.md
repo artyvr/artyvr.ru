@@ -4,7 +4,7 @@ description: Обновление Debian LXC в Proxmox
 date: 2025-04-17T18:22:00+01:00
 #tldr: false
 draft: false
-tags: [bash, pve, debian] 
+tags: [bash, pve, proxmox, debian] 
 toc: false
 ---
 
