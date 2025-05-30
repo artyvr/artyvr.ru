@@ -1,8 +1,7 @@
 ---
-title: Docker conteiner service
+title: Docker container service
 description: Systemd сервис для запуска docker контейнера
-date: 2025-05-29T22:36:00+01:00
-#tldr: false
+date: 2025-05-29T22:41:00+01:00
 draft: false
 tags: [docker, linux, systemd] 
 toc: false
