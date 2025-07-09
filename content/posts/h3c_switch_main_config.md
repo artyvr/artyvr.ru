@@ -9,6 +9,7 @@ toc: false
 ---
 
 
+### Первоночальная конфигурация
 ``` bash
 
 system-view
@@ -36,6 +37,22 @@ clock datetime 16:50:00 10/21/2024
 
 header login !
 
+save
+
+```
+
+### Конфигурация VLAN`s
+``` bash
+system-view
+vlan 101
+description DMZ
+port Ethernet 1/0/11
+quit
+
+interface Ethernet 1/0/11
+port link-type trunk # Для теггированого порта
+port trunk permit vlan 101
+quit
 save
 
 ```
