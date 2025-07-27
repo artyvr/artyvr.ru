@@ -9,6 +9,7 @@ toc: false
 
 
 
+
 ```bash
 firefox --kiosk
 ```
