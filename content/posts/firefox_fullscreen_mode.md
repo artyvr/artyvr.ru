@@ -1,7 +1,7 @@
 ---
 title: Firefox fullscreen
 description: Запуск Mozilla Firefox в полноэкранном режиме
-date: 2025-04-25T18:00:00+01:00
+date: 2025-04-26T14:00:00+01:00
 draft: false
 tags: [firefox] 
 toc: false
