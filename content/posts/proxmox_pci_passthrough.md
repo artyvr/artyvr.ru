@@ -8,7 +8,7 @@ tags: [bash, pve, proxmox, linux, pci, gpu]
 toc: false
 ---
 
-## 
+## Включаем iommu
 
 ```bash
 nano /etc/default/grub
@@ -79,6 +79,6 @@ blacklist i915
 
 ## Создаем виртуальную машину
 
-При создании виртуальной машины важно во вкладке System:
+При создании виртуальной машины, важно во вкладке System:
 
 ![System](https://artyvr.ru/images/proxmox_pci_passthrough_img_1.png "Создание виртуальной машины")
