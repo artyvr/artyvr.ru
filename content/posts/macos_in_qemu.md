@@ -36,4 +36,13 @@ Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 ```
 
+на всякий случай:
+
+```bash
+
+sudo chown $(whoami) /dev/bus/usb/001/002
+#                   /dev/bus/usb/Bus/Device
+
+```
+
 в моем случае это ***05ac:12ab Apple, Inc. iPad***
