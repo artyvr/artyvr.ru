@@ -1,14 +1,13 @@
 ---
 title: Локальный прокси
 description: Локальный прокси с vless
-date: 2025-10-16T20:00:00+01:00
+date: 2025-10-15T20:00:00+01:00
 draft: false
 tags: [proxy, squid, vless] 
 toc: false
 ---
 
 ```bash
-
 # Установка Xray
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
 
