@@ -12,6 +12,7 @@ toc: false
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
 
 # Установка V2Ray
+# Читаем https://v2raya.org/en/
 bash -c "$(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)"
 
 ```
@@ -41,12 +42,13 @@ acl CONNECT method CONNECT
 # Разрешения
 http_access allow local_net
 http_access deny all
+# а можно просто http_access allow all
 
-# Перенаправление трафика через Xray порт узнаем из конфига V2Ray
-# раздел inbounds, port:xxxx
-cache_peer 127.0.0.1 parent 1080 0 no-query default
+# Перенаправление трафика через Xray порт узнаем из конфига V2Ray /etc/v2raya/config.json 
+# раздел inbounds, port:xxxxx
+cache_peer 127.0.0.1 parent xxxxx 0 no-query default
 never_direct allow all
 
-# Логирование
+# Логирование???
 access_log /var/log/squid/access.log
 ```
