@@ -1,7 +1,7 @@
 ---
 title: UPOS
 description: UPOS downloads
-date: 2025-05-03T09:03:00+01:00
+date: 2025-10-29T08:03:00+01:00
 draft: false
 tags: [upos] 
 toc: false
@@ -12,6 +12,7 @@ toc: false
 - [https://artyvr.ru/upos/33.18.03_PC_STUB.zip](https://artyvr.ru/upos/33.18.03_PC_STUB.zip)
 - [https://artyvr.ru/upos/33.33_PC_STUB.zip](https://artyvr.ru/upos/33.33_PC_STUB.zip)
 - [https://artyvr.ru/upos/PC_STUB_33.42.02.zip](https://artyvr.ru/upos/PC_STUB_33.42.02.zip)
+- [https://artyvr.ru/upos/33.47.04.zip](https://artyvr.ru/upos/33.47.04.zip)
 - [https://artyvr.ru/upos/MTP_Device_Drivers.zip](https://artyvr.ru/upos/MTP_Device_Drivers.zip)
 
 Для **linux**
