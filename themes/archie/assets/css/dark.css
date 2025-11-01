@@ -1,22 +1,22 @@
 body {
-  color: white;
-  background-color: #202124;
+  color: #cdd6f4;
+  background-color: #1e1e2e;
 }
 
 ::-moz-selection {
-  background: blue;
-  color: #fff;
+  background: #89b4fa;
+  color: #cdd6f4;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
-  color: #fff;
+  background: #f38ba8;
+  color: #cdd6f4;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted #89b4fa;
 }
 code {
   background-color: lightblue;
@@ -25,13 +25,13 @@ code {
   padding: 0.1em 0.2em;
 }
 pre {
-  background-color: #272822;
+  background-color: #313244;
   line-height: 1.4;
   overflow-x: auto;
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: #89b4fa;
 }
 
 h1,
@@ -69,7 +69,7 @@ h6::before {
 
 .toc {
   background-color: #272822;
-  color: white;
+  color: #cdd6f4;
 }
 
 a {
@@ -78,14 +78,14 @@ a {
 }
 a:hover {
   background-color: var(--darkMaincolor);
-  color: black;
+  color: #11111b;
 }
 
 .site-description a {
-  color: #ddd;
+  color: #cdd6f4;
 }
 .site-description a:hover {
-  color: black;
+  color: #11111b;
 }
 
 .tags a {
@@ -93,11 +93,11 @@ a:hover {
 }
 .tags a:hover {
   background-color: var(--darkMaincolor);
-  color: black;
+  color: #11111b;
 }
 
 .site-title a {
-  color: white;
+  color: #cdd6f4;
   text-decoration: none !important;
 }
 
@@ -110,30 +110,30 @@ a:hover {
   background-color: #333;
 }
 .soc:hover {
-  color: black;
+  color: #11111b
 }
 .draft-label {
   color: var(--darkMaincolor);
-  background-color: blue;
+  background-color: #89b4fa;
 }
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";
-  background: #f7df1e;
-  color: black;
+  background: #f9e2af;
+  color: #11111b;
 }
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
   content: 'yaml';
-  background: #f71e6a;
-  color: white;
+  background: #f38ba8;
+  color: #cdd6f4;
 }
 .highlight pre code[class*='language-shell']::before,
 .highlight pre code[class*='language-bash']::before,
 .highlight pre code[class*='language-sh']::before {
   content: 'shell';
-  background: green;
-  color:white
+  background: #a6e3a1;
+  color:#cdd6f4
 }
 .highlight pre code[class*='language-json']::before{
   content: 'json';
@@ -143,50 +143,50 @@ a:hover {
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
   content: 'py';
-  background: blue;
-  color: yellow ;
+  background: #89b4fa;
+  color: #f9e2af;
 }
 .highlight pre code[class*='language-css']::before{
   content: 'css';
-  background: cyan;
-  color: black ;
+  background: #94e2d5;
+  color: #11111b;
 }
 .highlight pre code[class*='language-go']::before{
   content: 'Go';
-  background: cyan;
-  color: royalblue ;
+  background: #94e2d5;
+  color: #89b4fa;
 }
 .highlight pre code[class*='language-md']::before,
 .highlight pre code[class*='language-md']::before{
   content: 'Markdown';
-  background: royalblue;
-  color: whitesmoke ;
+  background: #89dceb;
+  color: #cdd6f4 ;
 }
 
 .callout-alert {
-  color: #ffffff;
+  color: #cdd6f4;
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: #ff6347;
+  border-color: #fab387;
 }
 
 .callout-custom {
-  color: #ffffff;
+  color: #cdd6f4;
 }
 
 .callout-tip {
-  color: #ffffff;
+  color: #cdd6f4;
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: dodgerblue;
+  border-color: #89b4fa;
 }
 
 .callout-warning {
-  color: #ffffff;
+  color: #cdd6f4;
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: #ffd700;
+  border-color: #f9e2af;
 }

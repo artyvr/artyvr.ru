@@ -249,7 +249,7 @@ article .title {
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: #ff6347;
+  border-color: #fab387;
 }
 
 .callout-custom {
@@ -261,7 +261,7 @@ article .title {
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: dodgerblue;
+  border-color: #89b4fa;
 }
 
 .callout-warning {
@@ -269,7 +269,7 @@ article .title {
   background-color: transparent;
   border-width: 3px;
   border-style: solid;
-  border-color: #ffd700;
+  border-color: #f9e2af;
 }
 
 .site-description {
@@ -324,52 +324,52 @@ svg{
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
 content: "js";
-background: #f7df1e;
-color: black;
+background: #f9e2af;
+color: #11111b;
 }
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
 content: 'yaml';
-background: #f71e6a;
-color: white;
+background: #f38ba8;
+color: #cdd6f4;
 }
 .highlight pre code[class*='language-shell']::before,
 .highlight pre code[class*='language-bash']::before,
 .highlight pre code[class*='language-sh']::before {
 content: 'shell';
-background: green;
-color:white
+background: #a6e3a1;
+color:#cdd6f4
 }
 .highlight pre code[class*='language-json']::before{
 content: 'json';
-background: dodgerblue;
- color: #000000 
+background: #89b4fa;
+ color: #11111b
 }
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
 content: 'py';
-background: blue;
-color: yellow ;
+background: #89b4fa;
+color: #f9e2af;
 }
 .highlight pre code[class*='language-css']::before{
 content: 'css';
-background: cyan;
-color: black ;
+background: #94e2d5;
+color: #11111b;
 }
 .highlight pre code[class*='language-go']::before{
 content: 'Go';
-background: cyan;
-color: royalblue ;
+background: #94e2d5;
+color: #89b4fa;
 }
 .highlight pre code[class*='language-md']::before,
 .highlight pre code[class*='language-md']::before{
 content: 'Markdown';
-background: royalblue;
-color: whitesmoke ;
+background: #89b4fa;
+color: #cdd6f4;
 }
 .highlight pre code[class*='language-ts']::before{
   content: 'TS';
-  background: #3178C6;
+  background: #89b4fa;
   color: #cdd6f4;
 }
 
@@ -381,13 +381,13 @@ table {
 
 table th{
   padding: 6px 13px;
-  border: 1px solid #dfe2e5;
+  border: 1px solid #cdd6f4;
   font-size: large;
 }
 
 table td{
   padding: 6px 13px;
-  border: 1px solid #dfe2e5;
+  border: 1px solid #cdd6f4;
 }
 
 .feather {
@@ -403,5 +403,5 @@ table td{
 #search-input{
   width: 100%;
   padding-left: 15px;
-  border: 3px solid #F9F0DA;
+  border: 3px solid #cdd6f4;
 }
