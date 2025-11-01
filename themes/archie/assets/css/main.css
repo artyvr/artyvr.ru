@@ -1,13 +1,13 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
+--maincolor:#f38ba8;
+--bordercl:#cba6f7;
+--callouctcolor:#89dceb;
+--hovercolor:#89b4fa;
+--darkMaincolor:#a6e3a1;
 }
 html {
-  color: #232333;
+  color: #1e1e2e;
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
@@ -22,7 +22,7 @@ body{
 
 ::selection {
   background: var(--maincolor);
-  color: #fff;
+  color: #cdd6f4;
 }
 
 p {
