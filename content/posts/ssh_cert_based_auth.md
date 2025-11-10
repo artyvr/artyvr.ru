@@ -34,6 +34,9 @@ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519
 
 ```bash
 ssh-copy-id username@remote_host
+# или
+ssh-copy-id -i user_key.pub username@remote_host
+
 ```
 
 ## Отключение авторизации по логину-паролю
