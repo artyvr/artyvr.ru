@@ -16,6 +16,11 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 bash -c "$(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)"
 
 ```
+Заходим http://ip-adress:2017
+Делаем импорт конфига, в меню Setting Transponent Proxy -> On: Do not Split Traffic -> Port Sharing
+В меню Address and Ports указываем нужные порты или оставляем как есть
+
+Установка squid опционально, можно и без него
 
 ```bash
 # Установка Squid
