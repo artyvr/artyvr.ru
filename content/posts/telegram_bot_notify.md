@@ -9,7 +9,8 @@ toc: false
 ---
 
 
-[Telegram token и chat_id](https://artyvr.ru/tags/telegram/)
+[Telegram token и chat_id](https://artyvr.ru/posts/telegram_notify/)
+
 
 ```bash
 #!/bin/bash
