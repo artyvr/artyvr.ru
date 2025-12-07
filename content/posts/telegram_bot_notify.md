@@ -4,10 +4,12 @@ description: Посылаем уведемления в telegramm bot через
 date: 2025-01-27T19:22:00+01:00
 #tldr: false
 draft: false
-tags: [bash, telegramm, linux] 
+tags: [bash, telegram, linux] 
 toc: false
 ---
 
+
+[Telegram token и chat_id](https://artyvr.ru/tags/telegram/)
 
 ```bash
 #!/bin/bash
