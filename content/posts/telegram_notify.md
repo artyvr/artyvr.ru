@@ -12,8 +12,8 @@ toc: false
 
 ### Узнаем чат ID
 
-+ заходим на [https://api.telegram.org/bot<Токен вашего бота>/getUpdates](https://api.telegram.org/bot<Токен вашего бота>/getUpdates)
++ заходим на [https://api.telegram.org/bot123456789/getUpdates](https://api.telegram.org/bot1234567890/getUpdates/)
 + в чат боте пишем любое сообщение
-+ обновляем страницу [https://api.telegram.org/bot<Токен вашего бота>/getUpdates](https://api.telegram.org/bot<Токен вашего бота>/getUpdates)
++ обновляем страницу [https://api.telegram.org/bot123456789/getUpdates](https://api.telegram.org/bot123456789/getUpdates/)
 + Находим: 
     > ... "from":{"id": 1111111111 ...}...
