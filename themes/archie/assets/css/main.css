@@ -338,7 +338,7 @@ color: #cdd6f4;
 .highlight pre code[class*='language-sh']::before {
 content: 'shell';
 background: #a6e3a1;
-color:#cdd6f4
+color:#11111b
 }
 .highlight pre code[class*='language-json']::before{
 content: 'json';
