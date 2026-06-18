@@ -25,19 +25,17 @@ toc: false
 Для **linux**
 
 ```bash
-
-wget https://artyvr.ru/upos/33.18.03_PC_STUB.zip
+wget https://artyvr.ru/upos/33.18.03.zip
 
 # или
 
-curl --output 33.18.03_PC_STUB.zip https://artyvr.ru/upos/33.18.03.zip
+curl --output 33.18.03.zip https://artyvr.ru/upos/33.18.03.zip
 
 ```
 
 Для **Windows**
 
 ```pwsh
-
-Invoke-WebRequest https://artyvr.ru/upos/33.18.03_PC_STUB.zip -OutFile 33.18.03.zip
+Invoke-WebRequest https://artyvr.ru/upos/33.18.03.zip -OutFile 33.18.03.zip
 
 ```
