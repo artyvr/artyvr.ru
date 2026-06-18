@@ -19,6 +19,9 @@ toc: false
 - [https://artyvr.ru/upos/34.05.07.zip](https://artyvr.ru/upos/34.05.07.zip)
 - [https://artyvr.ru/upos/34.09.zip](https://artyvr.ru/upos/34.09.zip)
 
+
+### Вариант для терминала:
+
 Для **linux**
 
 ```bash
