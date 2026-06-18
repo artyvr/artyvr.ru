@@ -14,7 +14,9 @@ toc: false
 - [https://artyvr.ru/upos/PC_STUB_33.42.02.zip](https://artyvr.ru/upos/PC_STUB_33.42.02.zip)
 - [https://artyvr.ru/upos/33.47.04.zip](https://artyvr.ru/upos/33.47.04.zip)
 - [https://artyvr.ru/upos/34.02.zip](https://artyvr.ru/upos/34.02.zip)
+- [https://artyvr.ru/upos/34.02.zip](https://artyvr.ru/upos/34.02.zip)
 - [https://artyvr.ru/upos/MTP_Device_Drivers.zip](https://artyvr.ru/upos/MTP_Device_Drivers.zip)
+- [https://artyvr.ru/upos/34.05.07_PC_STUB.zip](https://artyvr.ru/upos/34.05.07_PC_STUB.zip)
 
 Для **linux**
 
