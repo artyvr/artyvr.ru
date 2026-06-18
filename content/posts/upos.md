@@ -28,6 +28,8 @@ toc: false
 
 wget https://artyvr.ru/upos/33.18.03_PC_STUB.zip
 
+# или
+
 curl --output 33.18.03_PC_STUB.zip https://artyvr.ru/upos/33.18.03.zip
 
 ```
