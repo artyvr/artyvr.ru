@@ -1,7 +1,7 @@
 ---
 title: Установка archlinux
 description: Установка Archlinux
-date: 2025-06-29T18:00:00+01:00
+date: 2026-06-29T18:00:00+01:00
 draft: false
 tags: [linux, archlinux] 
 toc: false
